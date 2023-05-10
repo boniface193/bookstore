@@ -2,7 +2,6 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   categories: [],
-  total: 0,
   isLoading: true,
 };
 
@@ -12,7 +11,7 @@ const categorySlice = createSlice({
   reducers: {
     bookStatus: (state) => {
       state.books = [];
-    }
+    },
   },
 });
 

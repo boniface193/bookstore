@@ -167,10 +167,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create a new component for API]**
-- [ ] **[Fetch data inside of a new component]**
-- [ ] **[Show a loading state]**
-- [ ] **[Import the new component into your main component ]**
+- [ ] **[Display your books, received from the slice, in a reusable component]**
+- [ ] **[Dispatch actions using useDispatch]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
