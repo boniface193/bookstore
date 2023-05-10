@@ -11,7 +11,7 @@ const categorySlice = createSlice({
   reducers: {
     bookStatus: (state) => {
       state.books = [];
-    }
+    },
   },
 });
 
