@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
+import listBook from './listBook';
 
 const initialState = {
-  books: [],
+  books: listBook,
   totalBooks: 0,
   isLoading: true,
 };
