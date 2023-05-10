@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   books: [],
-  total: 0,
+  totalBooks: 0,
   isLoading: true,
 };
 

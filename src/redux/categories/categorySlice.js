@@ -2,7 +2,6 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   categories: [],
-  total: 0,
   isLoading: true,
 };
 
