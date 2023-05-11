@@ -3,7 +3,6 @@ import listBook from './listBook';
 
 const initialState = {
   books: listBook,
-  totalBooks: 0,
   isLoading: true,
 };
 
@@ -12,11 +11,13 @@ const bookSlice = createSlice({
   initialState,
   reducers: {
     addBook: (state, action) => {
-      state.books = action.payload;
+      state.books.push(
+        action.payload,
+      );
     },
     removeBook: (state, action) => {
       const itemId = action.payload;
-      state.books = state.books.filter((item) => item.id !== itemId);
+      state.books = state.books.filter((item) => item.item_id !== itemId);
     },
   },
 });
