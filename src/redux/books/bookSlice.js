@@ -11,8 +11,16 @@ const initialState = {
 
 const fetchBook = createAsyncThunk('books/get', async () => {
   try {
-    const requestUser = await axios(baseURL);
-    return requestUser.data;
+    const data = await axios(baseURL);
+    const requestUser = data.data;
+    const book = Object.keys(requestUser).map((key) => ({
+      item_id: key,
+      title: requestUser[key][0].title,
+      author: requestUser[key][0].author,
+      category: requestUser[key][0].category,
+      ...requestUser[key][0],
+    }));
+    return book;
   } catch (error) {
     return error;
   }
@@ -53,9 +61,7 @@ const bookSlice = createSlice({
       state.isLoading = true;
     }).addCase(fetchBook.fulfilled, (state, action) => {
       state.isLoading = false;
-      state.books = Object.values(action.payload).flatMap((value, key) => value.map((book) => ({
-        ...book, item_id: key,
-      })));
+      state.books = action.payload;
       state.error = '';
     }).addCase(fetchBook.rejected, (state, action) => {
       state.isLoading = false;
