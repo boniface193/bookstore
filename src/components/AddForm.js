@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addBook } from '../redux/books/bookSlice';
+import { addBook, createBook } from '../redux/books/bookSlice';
 
 const AddForm = () => {
   const dispatch = useDispatch();
@@ -20,6 +20,9 @@ const AddForm = () => {
     const { title, author, category } = formState;
     if (title.trim() !== '' || author.trim() !== '' || category.trim() !== '') {
       document.querySelector('.submit').reset();
+      dispatch(createBook(
+        formState,
+      ));
       dispatch(addBook(
         formState,
       ));

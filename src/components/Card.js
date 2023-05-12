@@ -1,11 +1,16 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/bookSlice';
+import { removeBook, deleteBook } from '../redux/books/bookSlice';
 
 const Card = ({
   action, title, author, percent, chapter, id,
 }) => {
   const dispatch = useDispatch();
+
+  const handleRemove = (itemID) => {
+    dispatch(removeBook(itemID));
+    dispatch(deleteBook(itemID));
+  };
 
   return (
     <aside className="card">
@@ -18,7 +23,7 @@ const Card = ({
         <div className="d-flex align-center mt-8">
           <button type="button" className="btn">Comment</button>
           <div className="hr" />
-          <button type="button" className="btn" onClick={(() => { dispatch(removeBook(id)); })}>Remove</button>
+          <button type="button" className="btn" onClick={(() => { handleRemove(id); })}>Remove</button>
           <div className="hr" />
           <button type="button" className="btn">Edit</button>
         </div>
@@ -54,7 +59,7 @@ Card.propTypes = {
   author: PropTypes.string.isRequired,
   percent: PropTypes.string.isRequired,
   chapter: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default Card;
