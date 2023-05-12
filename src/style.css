@@ -1,36 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
 
-:root {
-  --primary-blue: '#0290ff';
-  --secondary-blue: '#4386bf';
-  --bg-color: '#f5f6fa';
-  --white: '#fff';
-  --gray: '#e8e8e8'
-}
-
 body {
   margin: 0;
-  padding: 3.313rem 3.75rem 7.688rem 6.25rem;
-  background-color: var(--bg-color);
+  padding: 4%;
+  background-color: #f5f6fa;
   font-family: 'Montserrat', sans-serif;
 }
 
 header {
-  background-color: var(--white);
+  background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
-  height: 5.938rem;
+  height: 6.255rem;
 }
 
 a h1 {
-  color: var(--primary-blue) !important;
   font-size: 1.879rem;
+  color: #0290ff;
   font-weight: 700;
 }
 
 .container {
   padding: 0 40px;
-  box-shadow: 0  60px 0 rgba(0, 0, 0, 0.05);
 }
 
 .d-flex {
@@ -60,7 +51,7 @@ ul li a {
   font-weight: 400;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  font-size: 0.852rem;
+  font-size: 0.813rem;
   color: #1212128c;
 }
 
