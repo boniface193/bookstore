@@ -90,7 +90,7 @@ Install this project using the cloned repo or download and use the files to your
 - tests are included using Jest framework
 - commands to run:   npm run test 
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment">triangular_flag_on_post-deployment</a>
 
 You can deploy this project through Github Pages
 
