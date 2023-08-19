@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <br/>
-
-  <h3><b>Book Store application</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -16,8 +7,10 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -29,125 +22,77 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+  # 📖 [Book-Store] <a name="about-project"></a>
 
-# 📖 [React js setup] <a name="about-project"></a>
+**Book Store** Book store is a website to keep and store books. It is an app that allows users to make updates on there book.
 
-This project will lay the foundations for your Bookstore website. You will create the user interface using React.
-
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 [Built With] <a name="built-with">Create React App</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML, CSS and JS (React js library)</a></li>
-  </ul>
-</details>
+  > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<!-- Features -->
+  <details>
+  jsx
+  </details>
+
+  <details>
+  css
+  </details>
+  
+  <details>
+  react js
+  </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Use React components]**
-- **[Use React props]**
-- **[Use React state]**
-- **[good design]**
-- **[good graphics]**
+    Display a list of books
+    Add a book
+    Remove a selected book
+
+
+- **Project setup with Create React App**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+Try to have these in your local machine
 
-### Prerequisites <a name="prerequisites"></a>
+- Git and GitHub
+- VS Code or any code editor
 
-In order to run this project you need:
+### Prerequisites
 
-# Getting Started with Create React App
+In order to run this project you need 
+- A web browser
+- Code editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Setup
 
-## Available Scripts <a name="install"></a>
+Clone this repository to your desired folder:
 
-In the project directory, you can run:
+git clone https://github.com/boniface193/bookstore.git
 
-### `npm start`
+### Install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install this project using the cloned repo or download and use the files to your local machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usage
 
-### `npm test` <a name="run-tests"></a>
+- Clone the repository first
+- Commnads to Run: 
+    - npm install
+    - npm start
 
-To check for syntax error, run the following command:
+### Run tests
 
-```sh
-  npx eslint "**/*.{js,jsx}"
-  npx stylelint "**/*.{css,scss}"
-```
+- tests are included using Jest framework
+- commands to run:   npm run test 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Deployment <a name="triangular_flag_on_post-deployment">triangular_flag_on_post-deployment</a>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment <a name="triangular_flag_on_post-deployment"></a>
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify 
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can deploy this project through Github Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,20 +100,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Dennis**
+ 👤 **Ikechukwu**
 
-- GitHub: [github](https://github.com/boniface193)
-- Twitter: [twitter](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in//)
+- GitHub: [@boniface193](https://github.com/boniface193)
+- Twitter: [@bidtechnologies](https://twitter.com/bidtechnologies)
+- LinkedIn: [boniface-ikechukwu](https://www.linkedin.com/in/boniface-ikechukwu/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Display your books, received from the slice, in a reusable component]**
-- [ ] **[Dispatch actions using useDispatch]**
+- [ ] **Changes will be made as comming project requirement.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,37 +121,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to add issues to the [issues page](https://github.com/Jeddaa/js-capstone-tvmaze/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give a star.
+If you like this project give a star to this repositiory.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all the people that contributed in this project .
+- I would also like to thank Microverse for the guidance they made all the way up to this point. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+## ❓ FAQ <a name="faq"></a>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+- **Is it allowed to copy the contents of this project and use it for personal use?**
 
-- **[how can i run it?]**
-
-  - [local server]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+  - This project is free for copying and reusing in any way you like.
 
 ## 📝 License <a name="license"></a>
 
