@@ -1,4 +1,3 @@
-
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -87,6 +86,5 @@ const bookSlice = createSlice({
 export const { addBook, removeBook } = bookSlice.actions;
 
 export { fetchBook, createBook, deleteBook };
-
 
 export default bookSlice.reducer;
