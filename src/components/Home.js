@@ -1,16 +1,9 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import Card from './Card';
 import AddForm from './AddForm';
-import { fetchBook } from '../redux/books/bookSlice';
 
 const Home = () => {
-  const dispatch = useDispatch();
   const { books, isLoading, error } = useSelector((state) => state.books);
-
-  useEffect(() => {
-    dispatch(fetchBook());
-  }, [dispatch]);
 
   if (isLoading) {
     return (<span>Loading...</span>);
