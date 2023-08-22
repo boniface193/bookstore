@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
 
-
 body {
   margin: 0;
   padding: 4%;
@@ -9,13 +8,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 header {
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
   height: 6.255rem;
 }
-
 
 a h1 {
   font-size: 1.879rem;
